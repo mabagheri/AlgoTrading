@@ -1,0 +1,93 @@
+Indicator,Symbol
+Simple Moving Average,SMA
+Simple Moving Median,SMM
+Smoothed Simple Moving Average,SSMA
+Exponential Moving Average,EMA
+Double Exponential Moving Average,DEMA
+Triple Exponential Moving Average,TEMA
+Triangular Moving Average,TRIMA
+Triple Exponential Moving Average Oscillator,TRIX
+Volume Adjusted Moving Average,VAMA
+Kaufman Efficiency Indicator,ER
+Kaufman s Adaptive Moving Average,KAMA
+Zero Lag Exponential Moving Average,ZLEMA
+Weighted Moving Average,WMA
+Hull Moving Average,HMA
+Elastic Volume Moving Average,EVWMA
+Volume Weighted Average Price,VWAP
+Smoothed Moving Average,SMMA
+Fractal Adaptive Moving Average,FRAMA
+Moving Average Convergence Divergence,MACD
+Percentage Price Oscillator,PPO
+Volume-Weighted MACD,VW_MACD
+Elastic-Volume weighted MACD,EV_MACD
+Market Momentum,MOM
+Rate-of-Change,ROC
+Relative Strength Index,RSI
+Inverse Fisher Transform RSI,IFT_RSI
+True Range,TR
+Average True Range,ATR
+Stop-and-Reverse,SAR
+Bollinger Bands,BBANDS
+Bollinger Bands Width,BBWIDTH
+Momentum Breakout Bands,MOBO
+Percent B,PERCENT_B
+Keltner Channels,KC
+Donchian Channel,DO
+Directional Movement Indicator,DMI
+Average Directional Index,ADX
+Pivot Points,PIVOT
+Fibonacci Pivot Points,PIVOT_FIB
+Stochastic Oscillator K,STOCH
+Stochastic oscillator D,STOCHD
+Stochastic RSI,STOCHRSI
+Williams R,WILLIAMS
+Ultimate Oscillator,UO
+Awesome Oscillator,AO
+Mass Index,MI
+Vortex Indicator,VORTEX
+Know Sure Thing,KST
+True Strength Index,TSI
+Typical Price,TP
+Accumulation-Distribution Line,ADL
+Chaikin Oscillator,CHAIKIN
+Money Flow Index,MFI
+On Balance Volume,OBV
+Weighter OBV,WOBV
+Volume Zone Oscillator,VZO
+Price Zone Oscillator,PZO
+Elders Force Index,EFI
+Cummulative Force Index,CFI
+Bull power and Bear Power,EBBP
+Ease of Movement,EMV
+Commodity Channel Index,CCI
+Coppock Curve,COPP
+Buy and Sell Pressure,BASP
+Normalized BASP,BASPN
+Chande Momentum Oscillator,CMO
+Chandelier Exit,CHANDELIER
+Qstick,QSTICK
+Wave Trend Oscillator,WTO
+Fisher Transform,FISH
+Ichimoku Cloud,ICHIMOKU
+Adaptive Price Zone,APZ
+Squeeze Momentum Indicator,SQZMI
+Volume Price Trend,VPT
+Finite Volume Element,FVE
+Volume Flow Indicator,VFI
+Moving Standard deviation,MSD
+Schaff Trend Cycle,STC
+Balance Of Power,BOP
+Dynamic Momentum Index,DYMI
+Modification of Schaff Trend Cycle,EVSTC
+Parabolic SAR ,PSAR
+Volatility-Based-Momentum,VBM
+Williams Fractal,WILLIAMS_FRACTAL
+Normalized Simple Moving Average ,Normalized_SMA
+Normalized Simple Moving Average ,Normalized_SMA
+Relative Simple Moving Average ,Relative_SMA
+Normalized Exponential Moving Average ,Normalized_EMA
+Relative Exponential Moving Average ,Relative_EMA
+Percentage of Change,Pct_change
+Percentage of Maximum  Increase,Max_increase_pct
+Percentage of Maximum  decrease,Max_decrease_pct

@@ -1,0 +1,44 @@
+Indicator,Symbol
+Triple Exponential Moving Average Oscillator,TRIX
+Kaufman Efficiency Indicator,ER
+Percentage Price Oscillator,PPO
+Rate-of-Change,ROC
+Relative Strength Index,RSI
+Inverse Fisher Transform RSI,IFT_RSI
+Bollinger Bands Width,BBWIDTH
+Percent B,PERCENT_B
+Directional Movement Indicator,DMI
+Average Directional Index,ADX
+Stochastic Oscillator K,STOCH
+Stochastic oscillator D,STOCHD
+Stochastic RSI,STOCHRSI
+Williams R,WILLIAMS
+Ultimate Oscillator,UO
+Mass Index,MI
+Vortex Indicator,VORTEX
+Know Sure Thing,KST
+True Strength Index,TSI
+Volume Zone Oscillator,VZO
+Price Zone Oscillator,PZO
+Commodity Channel Index,CCI
+Coppock Curve,COPP
+Buy and Sell Pressure,BASP
+Normalized BASP,BASPN
+Chande Momentum Oscillator,CMO
+Wave Trend Oscillator,WTO
+Fisher Transform,FISH
+Squeeze Momentum Indicator,SQZMI
+Finite Volume Element,FVE
+Volume Flow Indicator,VFI
+Schaff Trend Cycle,STC
+Balance Of Power,BOP
+Modification of Schaff Trend Cycle,EVSTC
+Volatility-Based-Momentum,VBM
+Williams Fractal,WILLIAMS_FRACTAL
+Normalized Simple Moving Average ,Normalized_SMA
+Relative Simple Moving Average ,Relative_SMA
+Normalized Exponential Moving Average ,Normalized_EMA
+Relative Exponential Moving Average ,Relative_EMA
+Percentage of Change,Pct_change
+Percentage of Maximum  Increase,Max_increase_pct
+Percentage of Maximum  decrease,Max_decrease_pct

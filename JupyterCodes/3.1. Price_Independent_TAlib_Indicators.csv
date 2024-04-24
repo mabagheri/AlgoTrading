@@ -1,0 +1,88 @@
+Indicator,Symbol,Accept_args,Default_arg,Default_arg validated
+Average Directional Movement Index,ADX,Yes,"(14, )",Yes
+Average Directional Movement Index Rating,ADXR,Yes,"(14, )",Yes
+Aroon,AROON,Yes,"(14, )",Yes
+Aroon Oscillator,AROONOSC,Yes,"(14, )",Yes
+Balance Of Power,BOP,No,NA,NA
+Commodity Channel Index,CCI,Yes,"(14, )",Yes
+Chande Momentum Oscillator,CMO,Yes,"(14, )",Yes
+Directional Movement Index,DX,Yes,"(14, )",Yes
+Minus Directional Indicator,MINUS_DI,Yes,"(14, )",Yes
+Plus Directional Indicator,PLUS_DI,Yes,"(14, )",Yes
+Percentage Price Oscillator,PPO,Yes,"(12, 26, 0, )",Yes
+Rate of change : ((price/prevPrice)-1)*100,ROC,Yes,"(10, )",Yes
+Rate of change Percentage: (price-prevPrice)/prevPrice,ROCP,Yes,"(10, )",Yes
+Rate of change ratio: (price/prevPrice),ROCR,Yes,"(10, )",Yes
+Rate of change ratio 100 scale: (price/prevPrice)*100,ROCR100,Yes,"(10, )",Yes
+Relative Strength Index,RSI,Yes,"(14, )",Yes
+Stochastic,STOCH,Yes,"(5, 3, 0, 3, 0)",Yes
+Stochastic Fast,STOCHF,Yes,"(5, 3, 0)",Yes
+Stochastic Relative Strength Index,STOCHRSI,Yes,"(14, 5, 3, 0, )",Yes
+1-day Rate-Of-Change (ROC) of a Triple Smooth EMA,TRIX,Yes,"(30, )",Yes
+Ultimate Oscillator,ULTOSC,Yes,"(7, 14, 28)",Yes
+Williams' %R,WILLR,Yes,"(14, )",Yes
+Hilbert Transform - Dominant Cycle Period,HT_DCPERIOD,No,NA,NA
+Hilbert Transform - Dominant Cycle Phase,HT_DCPHASE,No,NA,NA
+Hilbert Transform - SineWave,HT_SINE,No,NA,NA
+Hilbert Transform - Trend vs Cycle Mode,HT_TRENDMODE,No,NA,NA
+Normalized Average True Range,NATR,Yes,"(14, )",Yes
+Two Crows,CDL2CROWS,No,NA,NA
+Three Black Crows,CDL3BLACKCROWS,No,NA,NA
+Three Inside Up/Down,CDL3INSIDE,No,NA,NA
+Three-Line Strike,CDL3LINESTRIKE,No,NA,NA
+Three Outside Up/Down,CDL3OUTSIDE,No,NA,NA
+Three Stars In The South,CDL3STARSINSOUTH,No,NA,NA
+Three Advancing White Soldiers,CDL3WHITESOLDIERS,No,NA,NA
+Abandoned Baby,CDLABANDONEDBABY,No,NA,NA
+Advance Block,CDLADVANCEBLOCK,No,NA,NA
+Belt-hold,CDLBELTHOLD,No,NA,NA
+Breakaway,CDLBREAKAWAY,No,NA,NA
+Closing Marubozu,CDLCLOSINGMARUBOZU,No,NA,NA
+Concealing Baby Swallow,CDLCONCEALBABYSWALL,No,NA,NA
+Counterattack,CDLCOUNTERATTACK,No,NA,NA
+Dark Cloud Cover,CDLDARKCLOUDCOVER,Yes,"(0.5, )",Yes
+Doji,CDLDOJI,No,NA,NA
+Doji Star,CDLDOJISTAR,No,NA,NA
+Dragonfly Doji,CDLDRAGONFLYDOJI,No,NA,NA
+Engulfing Pattern,CDLENGULFING,No,NA,NA
+Evening Doji Star,CDLEVENINGDOJISTAR,Yes,"(0.3, )",Yes
+Evening Star,CDLEVENINGSTAR,Yes,"(0.3, )",Yes
+Up/Down-gap side-by-side white lines,CDLGAPSIDESIDEWHITE,No,NA,NA
+Gravestone Doji,CDLGRAVESTONEDOJI,No,NA,NA
+Hammer,CDLHAMMER,No,NA,NA
+Hanging Man,CDLHANGINGMAN,No,NA,NA
+Harami Pattern,CDLHARAMI,No,NA,NA
+Harami Cross Pattern,CDLHARAMICROSS,No,NA,NA
+Hikkake Pattern,CDLHIKKAKE,No,NA,NA
+Modified Hikkake Pattern,CDLHIKKAKEMOD,No,NA,NA
+Homing Pigeon,CDLHOMINGPIGEON,No,NA,NA
+Identical Three Crows,CDLIDENTICAL3CROWS,No,NA,NA
+In-Neck Pattern,CDLINNECK,No,NA,NA
+Inverted Hammer,CDLINVERTEDHAMMER,No,NA,NA
+Kicking,CDLKICKING,No,NA,NA
+Kicking - bull/bear determined by the longer marubozu,CDLKICKINGBYLENGTH,No,NA,NA
+Ladder Bottom,CDLLADDERBOTTOM,No,NA,NA
+Long Legged Doji,CDLLONGLEGGEDDOJI,No,NA,NA
+Long Line Candle,CDLLONGLINE,No,NA,NA
+Marubozu,CDLMARUBOZU,No,NA,NA
+Matching Low,CDLMATCHINGLOW,No,NA,NA
+Mat Hold,CDLMATHOLD,No,NA,NA
+Morning Doji Star,CDLMORNINGDOJISTAR,No,NA,NA
+Morning Star,CDLMORNINGSTAR,Yes,"(0.3, )",Yes
+On-Neck Pattern,CDLONNECK,No,NA,NA
+Piercing Pattern,CDLPIERCING,No,NA,NA
+Rickshaw Man,CDLRICKSHAWMAN,No,NA,NA
+Rising/Falling Three Methods,CDLRISEFALL3METHODS,No,NA,NA
+Separating Lines,CDLSEPARATINGLINES,No,NA,NA
+Shooting Star,CDLSHOOTINGSTAR,No,NA,NA
+Short Line Candle,CDLSHORTLINE,No,NA,NA
+Stalled Pattern,CDLSTALLEDPATTERN,No,NA,NA
+Stick Sandwich,CDLSTICKSANDWICH,No,NA,NA
+Takuri (Dragonfly Doji with very long lower shadow),CDLTAKURI,No,NA,NA
+Tasuki Gap,CDLTASUKIGAP,No,NA,NA
+Thrusting Pattern,CDLTHRUSTING,No,NA,NA
+Tristar Pattern,CDLTRISTAR,No,NA,NA
+Unique 3 River,CDLUNIQUE3RIVER,No,NA,NA
+Upside Gap Two Crows,CDLUPSIDEGAP2CROWS,No,NA,NA
+Upside/Downside Gap Three Methods,CDLXSIDEGAP3METHODS,No,NA,NA
+Beta,BETA,Yes,"(5, )",Yes

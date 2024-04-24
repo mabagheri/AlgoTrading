@@ -1,0 +1,585 @@
+{
+    "ID":"configs_v2",
+    "Verbose":true,
+    "data":{
+        "data_folders":[
+            "C:/Users/user/Dropbox/+Trading/AlgorithmicTrading/Data/Daily/TSX"
+        ],
+        "meta_data_file_path":"../Data/+Stocks_lists/CanadianStock_Dec2021_top100.xlsx"
+    },
+    "data_selection":{
+        "ticker_filtering":{
+            "Country":[
+                "Canada"
+            ],
+            "Sector":[
+                "All"
+            ],
+            "MarketCap_in_Billion":[
+                10,
+                3000
+            ]
+        },
+        "time_filtering":[
+            "2021-01-01",
+            "2022-03-10"
+        ],
+        "lookback_window":750
+    },
+    "validation":{
+        "style":"OOT",
+        "OOT_split_date":"2022-02-10"
+    },
+    "Target_definition":{
+        "Increase_pct":5,
+        "Period":5,
+        "decrease_tolerance":-3
+    },
+    "preprocessing":{},
+    "feature_extraction":{
+        "Load pre-generated features":false,
+        "Save_Generated_Dataset":false,
+        "Concat_last_day":false,
+        "Finta_Indicators_not_used":[
+            [
+                "OBV_Normalized",
+                "OBV_Normalized"
+            ]
+        ],
+        "Finta_Indicators":[
+            [
+                "OBV_Normalized",
+                "OBV_Normalized"
+            ],
+            [
+                "Money Flow Index",
+                "MFI",
+                [
+                    "(14, )",
+                    "(50, )"
+                ]
+            ],
+            [
+                "Normalized Simple Moving Average ",
+                "Normalized_SMA",
+                [
+                    "(5, )",
+                    "(20, )",
+                    "(50, )",
+                    "(100, )",
+                    "(200, )",
+                    "(400, )"
+                ]
+            ],
+            [
+                "Relative Simple Moving Average ",
+                "Relative_SMA",
+                [
+                    "(10, 20)",
+                    "(20, 50)",
+                    "(50, 100)",
+                    "(50, 200)",
+                    "(100, 200)"
+                ]
+            ],
+            [
+                "Normalized Exponential Moving Average ",
+                "Normalized_EMA",
+                [
+                    "(5, )",
+                    "(20, )",
+                    "(50, )",
+                    "(100, )",
+                    "(200, )"
+                ]
+            ],
+            [
+                "Relative Exponential Moving Average ",
+                "Relative_EMA",
+                [
+                    "(10, 20)",
+                    "(20, 50)",
+                    "(50, 100)",
+                    "(50, 200)"
+                ]
+            ],
+            [
+                "Percentage of Change",
+                "Pct_change",
+                [
+                    "(1,)",
+                    "(3,)",
+                    "(5,)",
+                    "(10,)",
+                    "(20,)",
+                    "(50,)",
+                    "(100,)",
+                    "(250,)",
+                    "(520,)"
+                ]
+            ],
+            [
+                "Percentage of Maximum  Increase",
+                "Max_increase_pct",
+                [
+                    "(5, )",
+                    "(20, )",
+                    "(50, )",
+                    "(100, )",
+                    "(200, )",
+                    "(300, )",
+                    "(500, )"
+                ]
+            ],
+            [
+                "Percentage of Maximum  decrease",
+                "Max_decrease_pct",
+                [
+                    "(5, )",
+                    "(20, )",
+                    "(50, )",
+                    "(100, )",
+                    "(200, )",
+                    "(300, )",
+                    "(500, )"
+                ]
+            ],
+            [
+                "Directional Movement Indicator",
+                "DMI",
+                [
+                    "(5, )",
+                    "(14, )",
+                    "(30, )"
+                ]
+            ],
+            [
+                "Volume Flow Indicator",
+                "VFI",
+                [
+                    "(130, 3)",
+                    "(20, 5)"
+                ]
+            ],
+            [
+                "Buy and Sell Pressure",
+                "BASP",
+                [
+                    "(40, )"
+                ]
+            ],
+            [
+                "Volume Zone Oscillator",
+                "VZO",
+                [
+                    "(14, )"
+                ]
+            ],
+            [
+                "Finite Volume Element",
+                "FVE",
+                [
+                    "(22, 0.3)",
+                    "(14, 0.3)",
+                    "(7, 0.3)",
+                    "(3, 0.3)"
+                ]
+            ]
+        ],
+        "TALib_Indicators_not_used":[],
+        "TALib_Indicators":[
+            [
+                "Normalized Average True Range",
+                "NATR",
+                [
+                    "(14, )",
+                    "(3, )",
+                    "(7, )",
+                    "(20, )",
+                    "(40, )",
+                    "(100, )",
+                    "(200, )"
+                ]
+            ],
+            [
+                "Average Directional Movement Index Rating",
+                "ADXR",
+                [
+                    "(14, )"
+                ]
+            ],
+            [
+                "Beta",
+                "BETA",
+                [
+                    "(5, )",
+                    "(14, )",
+                    "(40, )"
+                ]
+            ],
+            [
+                "Hilbert Transform - Dominant Cycle Period",
+                "HT_DCPERIOD"
+            ],
+            [
+                "Aroon",
+                "AROON"
+            ],
+            [
+                "Aroon Oscillator",
+                "AROONOSC"
+            ],
+            [
+                "Balance Of Power",
+                "BOP"
+            ],
+            [
+                "Commodity Channel Index",
+                "CCI"
+            ],
+            [
+                "Chande Momentum Oscillator",
+                "CMO"
+            ],
+            [
+                "Directional Movement Index",
+                "DX"
+            ],
+            [
+                "Minus Directional Indicator",
+                "MINUS_DI"
+            ],
+            [
+                "Plus Directional Indicator",
+                "PLUS_DI"
+            ],
+            [
+                "Percentage Price Oscillator",
+                "PPO"
+            ],
+            [
+                "Rate of change : ((price/prevPrice)-1)*100",
+                "ROC"
+            ],
+            [
+                "Rate of change Percentage: (price-prevPrice)/prevPrice",
+                "ROCP"
+            ],
+            [
+                "Rate of change ratio: (price/prevPrice)",
+                "ROCR"
+            ],
+            [
+                "Rate of change ratio 100 scale: (price/prevPrice)*100",
+                "ROCR100"
+            ],
+            [
+                "Relative Strength Index",
+                "RSI",
+                [
+                    "(14, )",
+                    "(5, )"
+                ]
+            ],
+            [
+                "Stochastic",
+                "STOCH"
+            ],
+            [
+                "Stochastic Fast",
+                "STOCHF",
+                [
+                    "(5, 3, 0)"
+                ]
+            ],
+            [
+                "Stochastic Relative Strength Index",
+                "STOCHRSI",
+                [
+                    "(14, )"
+                ]
+            ],
+            [
+                "1-day Rate-Of-Change (ROC) of a Triple Smooth EMA",
+                "TRIX"
+            ],
+            [
+                "Ultimate Oscillator",
+                "ULTOSC"
+            ],
+            [
+                "Williams' %R",
+                "WILLR"
+            ],
+            [
+                "Hilbert Transform - Dominant Cycle Phase",
+                "HT_DCPHASE"
+            ],
+            [
+                "Hilbert Transform - SineWave",
+                "HT_SINE"
+            ],
+            [
+                "Hilbert Transform - Trend vs Cycle Mode",
+                "HT_TRENDMODE"
+            ],
+            [
+                "Two Crows",
+                "CDL2CROWS"
+            ],
+            [
+                "Three Black Crows",
+                "CDL3BLACKCROWS"
+            ],
+            [
+                "Three Inside Up/Down",
+                "CDL3INSIDE"
+            ],
+            [
+                "Three-Line Strike",
+                "CDL3LINESTRIKE"
+            ],
+            [
+                "Three Outside Up/Down",
+                "CDL3OUTSIDE"
+            ],
+            [
+                "Three Stars In The South",
+                "CDL3STARSINSOUTH"
+            ],
+            [
+                "Three Advancing White Soldiers",
+                "CDL3WHITESOLDIERS"
+            ],
+            [
+                "Abandoned Baby",
+                "CDLABANDONEDBABY"
+            ],
+            [
+                "Advance Block",
+                "CDLADVANCEBLOCK"
+            ],
+            [
+                "Belt-hold",
+                "CDLBELTHOLD"
+            ],
+            [
+                "Breakaway",
+                "CDLBREAKAWAY"
+            ],
+            [
+                "Closing Marubozu",
+                "CDLCLOSINGMARUBOZU"
+            ],
+            [
+                "Concealing Baby Swallow",
+                "CDLCONCEALBABYSWALL"
+            ],
+            [
+                "Counterattack",
+                "CDLCOUNTERATTACK"
+            ],
+            [
+                "Dark Cloud Cover",
+                "CDLDARKCLOUDCOVER"
+            ],
+            [
+                "Doji",
+                "CDLDOJI"
+            ],
+            [
+                "Doji Star",
+                "CDLDOJISTAR"
+            ],
+            [
+                "Dragonfly Doji",
+                "CDLDRAGONFLYDOJI"
+            ],
+            [
+                "Engulfing Pattern",
+                "CDLENGULFING"
+            ],
+            [
+                "Evening Doji Star",
+                "CDLEVENINGDOJISTAR"
+            ],
+            [
+                "Evening Star",
+                "CDLEVENINGSTAR"
+            ],
+            [
+                "Up/Down-gap side-by-side white lines",
+                "CDLGAPSIDESIDEWHITE"
+            ],
+            [
+                "Gravestone Doji",
+                "CDLGRAVESTONEDOJI"
+            ],
+            [
+                "Hammer",
+                "CDLHAMMER"
+            ],
+            [
+                "Hanging Man",
+                "CDLHANGINGMAN"
+            ],
+            [
+                "Harami Pattern",
+                "CDLHARAMI"
+            ],
+            [
+                "Harami Cross Pattern",
+                "CDLHARAMICROSS"
+            ],
+            [
+                "Hikkake Pattern",
+                "CDLHIKKAKE"
+            ],
+            [
+                "Modified Hikkake Pattern",
+                "CDLHIKKAKEMOD"
+            ],
+            [
+                "Homing Pigeon",
+                "CDLHOMINGPIGEON"
+            ],
+            [
+                "Identical Three Crows",
+                "CDLIDENTICAL3CROWS"
+            ],
+            [
+                "In-Neck Pattern",
+                "CDLINNECK"
+            ],
+            [
+                "Inverted Hammer",
+                "CDLINVERTEDHAMMER"
+            ],
+            [
+                "Kicking",
+                "CDLKICKING"
+            ],
+            [
+                "Kicking - bull/bear determined by the longer marubozu",
+                "CDLKICKINGBYLENGTH"
+            ],
+            [
+                "Ladder Bottom",
+                "CDLLADDERBOTTOM"
+            ],
+            [
+                "Long Legged Doji",
+                "CDLLONGLEGGEDDOJI"
+            ],
+            [
+                "Long Line Candle",
+                "CDLLONGLINE"
+            ],
+            [
+                "Marubozu",
+                "CDLMARUBOZU"
+            ],
+            [
+                "Matching Low",
+                "CDLMATCHINGLOW"
+            ],
+            [
+                "Mat Hold",
+                "CDLMATHOLD"
+            ],
+            [
+                "Morning Doji Star",
+                "CDLMORNINGDOJISTAR"
+            ],
+            [
+                "Morning Star",
+                "CDLMORNINGSTAR"
+            ],
+            [
+                "On-Neck Pattern",
+                "CDLONNECK"
+            ],
+            [
+                "Piercing Pattern",
+                "CDLPIERCING"
+            ],
+            [
+                "Rickshaw Man",
+                "CDLRICKSHAWMAN"
+            ],
+            [
+                "Rising/Falling Three Methods",
+                "CDLRISEFALL3METHODS"
+            ],
+            [
+                "Separating Lines",
+                "CDLSEPARATINGLINES"
+            ],
+            [
+                "Shooting Star",
+                "CDLSHOOTINGSTAR"
+            ],
+            [
+                "Short Line Candle",
+                "CDLSHORTLINE"
+            ],
+            [
+                "Stalled Pattern",
+                "CDLSTALLEDPATTERN"
+            ],
+            [
+                "Stick Sandwich",
+                "CDLSTICKSANDWICH"
+            ],
+            [
+                "Takuri (Dragonfly Doji with very long lower shadow)",
+                "CDLTAKURI"
+            ],
+            [
+                "Tasuki Gap",
+                "CDLTASUKIGAP"
+            ],
+            [
+                "Thrusting Pattern",
+                "CDLTHRUSTING"
+            ],
+            [
+                "Tristar Pattern",
+                "CDLTRISTAR"
+            ],
+            [
+                "Unique 3 River",
+                "CDLUNIQUE3RIVER"
+            ],
+            [
+                "Upside Gap Two Crows",
+                "CDLUPSIDEGAP2CROWS"
+            ],
+            [
+                "Upside/Downside Gap Three Methods",
+                "CDLXSIDEGAP3METHODS"
+            ]
+        ],
+        "Fundamental_indicators":[
+            "Market Cap",
+            "Sector"
+        ]
+    },
+    "classification":{
+        "features_scaling":"StandardScaler",
+        "perform_HPO_GridSearch":true,
+        "classifier":"XGBoost",
+        "XGBoost: n_trees":50,
+        "XGBoost: max_depth":4,
+        "XGBoost: learning_rate":0.03
+    },
+    "save_the_results":{
+        "save_model":true,
+        "save_json_file":true,
+        "save_plot_conf_matrix":0,
+        "save_post_analysis":false,
+        "save_detailed_results":true,
+        "save_shap_feat_importance":true
+    },
+    "saving_folder":"Results/2022.03.10-2216_Canada_All_10_3000B_20210101_to_20220310, 5_in_5days/"
+}
